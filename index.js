@@ -5,7 +5,7 @@ const path = require("path");
 const cwd = process.cwd();
 const pkg = require(`${cwd}/package.json`);
 
-export default {
+module.exports = {
   input: require.resolve(path.resolve(cwd, "src")),
 
   output: [
