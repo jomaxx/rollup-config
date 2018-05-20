@@ -1,11 +1,13 @@
 {
   "name": "@jomaxx/rollup-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "repository": "git@github.com:jomaxx/rollup-config.git",
   "author": "Jo Maxx <jo.maxx.blake@gmail.com>",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "babel-core": "6",
     "babel-plugin-external-helpers": "^6.22.0",
