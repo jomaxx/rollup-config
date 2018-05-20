@@ -22,7 +22,7 @@ module.exports = {
 
   external: [
     ...Object.keys(pkg.dependencies || {}),
-    ...Object.keys(pkg.devDependencies || {})
+    ...Object.keys(pkg.peerDependencies || {})
   ],
 
   plugins: [
